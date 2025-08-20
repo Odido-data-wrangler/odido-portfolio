@@ -8,7 +8,7 @@ Dit portfolio toont recent werk relevant voor de NLU Specialist rol bij Odido.
 LLM observability en evaluatie framework voor kwaliteitscontrole van AI-systemen.
 
 ### 2. [Email Feedback Analyser](./odido-email-feedback-analyser/)
-NLU-gedreven feedback classificatie met intent matching en sentiment analyse.
+Feedback classificatie met intent matching en sentiment analyse.
 
 
 ## 🎯 Relevantie voor de Rol
