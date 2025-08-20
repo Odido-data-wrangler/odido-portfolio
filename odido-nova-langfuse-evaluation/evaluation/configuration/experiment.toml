@@ -1,0 +1,39 @@
+# Nova Experiment Configuration - V1 Testing
+
+[experiment]
+dataset_name = "nova_experiment_v1"
+dataset_description = "Nova V1 Experiment Dataset - Testing 3-Agent Pipeline Improvements"
+experiment_name = "nova_experiment_v1"
+eval_model = "gpt"
+
+evaluations = [
+    "relevance",
+    "completeness",
+    "accuracy",
+    "helpfulness",
+    "language_quality",
+    "intent_recognition"
+]
+
+[parameters]
+mode = "dev"
+batch_size = 10
+timeout = 30
+retry_attempts = 3
+
+[metadata]
+version = "v1.0.0"
+created_by = "Nova Evaluation System"
+description = "V1 experiment testing Nova 3-agent workflow improvements"
+dataset_type = "experiment"
+language = "Dutch"
+domain = "telecommunications"
+service_areas = ["mobiel", "thuis", "onduidelijk"]
+
+[improvements]
+target_relevance = 0.85
+target_completeness = 0.80
+target_accuracy = 0.90
+target_helpfulness = 0.85
+target_language_quality = 0.85
+target_intent_recognition = 0.90

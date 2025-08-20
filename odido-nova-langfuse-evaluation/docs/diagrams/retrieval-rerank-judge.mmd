@@ -1,0 +1,9 @@
+sequenceDiagram
+  participant Q as Query
+  participant RET as Retriever
+  participant J as Judge
+  Q->>RET: embed(query) → top-k + cosine
+  RET-->>Q: candidates[{intent,example,distance}]
+  Q->>J: candidates (≤k), prompt vX
+  J-->>Q: {labels:[{intent, verdict}], reason}
+  Q-->>Q: rules(tau_exact, tau_serve) → serve/clarify

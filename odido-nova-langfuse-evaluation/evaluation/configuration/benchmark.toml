@@ -1,0 +1,25 @@
+# Nova Benchmark Configuration - V0 Baseline
+
+[experiment]
+dataset_name = "nova_benchmark_v0"
+dataset_description = "Nova V0 Baseline Benchmark - Dutch Telecom Customer Service Questions"
+experiment_name = "nova_benchmark_v0"
+eval_model = "gpt"
+
+evaluations = [
+    "relevance",
+    "completeness",
+    "accuracy",
+    "helpfulness",
+    "language_quality",
+    "intent_recognition"
+]
+
+[metadata]
+version = "v0.1.0"
+created_by = "Nova Evaluation System"
+description = "Baseline benchmark for Nova 3-agent workflow evaluation"
+dataset_type = "benchmark"
+language = "Dutch"
+domain = "telecommunications"
+service_areas = ["mobiel", "thuis", "onduidelijk"]

@@ -1,0 +1,17 @@
+sequenceDiagram
+  participant C as Client (script)
+  participant WS as Nova WebSocket
+  participant LF as Langfuse
+  participant LLM as Azure OpenAI (judge)
+
+  C->>LF: start_as_current_span(input: question, conversation_id, evaluation_type)
+  C->>WS: connect wss + token
+  WS-->>C: input_required / intent_detected / context_retrieved
+  C->>WS: confirm_customer (if required)
+  WS-->>C: response_streaming chunks
+  WS-->>C: final_result / response_complete
+  C->>LLM: evaluate per metric (templates from general.toml)
+  LLM-->>C: {score, comment}
+  C->>LF: score_current_trace(name, value, comment)
+  C->>LF: span.update(output: answer, intent, sources_count, success, avg_score)
+  C->>LF: flush

@@ -1,0 +1,8 @@
+flowchart LR
+  U["User query"] --> P["Preprocess"]
+  P --> R["Embed & Retrieve (top-k)"]
+  R --> RR["Rerank (opt)"]
+  RR --> J["LLM-as-judge"]
+  R -->|tau_exact| S1["Serve intent (skip judge)"]
+  J -->|OK >= tau_serve| S2["Serve intent"]
+  J -->|twijfel| C["Clarify / meerdere intent-knoppen"]

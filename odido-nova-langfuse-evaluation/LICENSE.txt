@@ -1,0 +1,1 @@
+All rights reserved. This repository is an internal showcase of NLU evaluation patterns and contains no runnable code or secrets.
