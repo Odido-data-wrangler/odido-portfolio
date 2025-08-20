@@ -11,10 +11,5 @@ LLM observability en evaluatie framework voor kwaliteitscontrole van AI-systemen
 Feedback classificatie met intent matching en sentiment analyse.
 
 
-## 🎯 Relevantie voor de Rol
 
-- **Intent classification** met vector embeddings
-- **LLM-as-judge** voor kwaliteitsvalidatie
-- **Multi-intent handling**
-- **Observability** en monitoring
 
