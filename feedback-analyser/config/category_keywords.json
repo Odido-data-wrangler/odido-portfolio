@@ -1,0 +1,51 @@
+{
+  "Relevantie van Email": [
+    "reclame", 
+    "spam", 
+    "overbodig", 
+    "ik wil dit niet", 
+    "waarom mail je", 
+    "stoppen met mail"
+  ],
+  "Inhoud van Email": [
+    "gegevens kloppen niet", 
+    "naam onjuist", 
+    "prijs niet zichtbaar", 
+    "wat kost", 
+    "onduidelijk"
+  ],
+  "Prijs / Korting": [
+    "te duur", 
+    "aanbod", 
+    "geen korting voor bestaande klanten", 
+    "korting te laag", 
+    "goedkoper"
+  ],
+  "Merk": [
+    "slechte naam", 
+    "odido", 
+    "brand", 
+    "merk", 
+    "imago", 
+    "reputatie", 
+    "identiteit", 
+    "naam"
+  ],
+  "Klantenservice": [
+    "service", 
+    "contact", 
+    "telefonisch contact", 
+    "winkel medewerker", 
+    "personeel", 
+    "wachttijd"
+  ],
+  "Kwaliteit van Product": [
+    "netwerk", 
+    "verbinding", 
+    "uitvallen", 
+    "valt uit", 
+    "bereik", 
+    "geen verbinding", 
+    "dekking"
+  ]
+} 

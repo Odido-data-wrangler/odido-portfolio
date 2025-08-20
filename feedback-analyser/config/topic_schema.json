@@ -1,0 +1,53 @@
+{
+  "Relevantie van Email": [
+    "Ongewenste reclame", 
+    "Spam berichten", 
+    "Overbodige communicatie",
+    "Opt-out verzoeken", 
+    "Reden van contactopname", 
+    "Gebrek aan interesse"
+  ],
+  "Inhoud van Email": [
+    "Onjuiste gegevens", 
+    "Foute persoonlijke informatie", 
+    "Prijsinformatie ontbreekt",
+    "Onduidelijke voorwaarden", 
+    "Verbruiksinformatie", 
+    "Misleidende communicatie"
+  ],
+  "Prijs / Korting": [
+    "Prijsniveau", 
+    "Speciale aanbiedingen", 
+    "Klantloyaliteit & Kortingen",
+    "Kortingspercentage", 
+    "Concurrerende aanbieders", 
+    "Prijsvergelijking"
+  ],
+  "Merk": [
+    "Merkperceptie", 
+    "Naamsbekendheid", 
+    "Merkverandering",
+    "Brand identity", 
+    "Odido merkbeleving", 
+    "Algemene reputatie",
+    "Ben merkbeleving", 
+    "Simpel merkbeleving", 
+    "Vergelijking merken"
+  ],
+  "Klantenservice": [
+    "Bereikbaarheid", 
+    "Telefonisch contact", 
+    "In-store ervaring",
+    "Medewerker kwaliteit", 
+    "Wachttijden", 
+    "Klachtafhandeling"
+  ],
+  "Kwaliteit van Product": [
+    "Netwerkkwaliteit", 
+    "Verbindingsstabiliteit", 
+    "Service-uitval",
+    "Netwerkbereik", 
+    "Internetprestaties", 
+    "Technische problemen"
+  ]
+} 
